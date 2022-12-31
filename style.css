@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+canvas {
+  display: block;
+}
+/* 
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Song Myung', serif; */
+
+#top{
+/*   padding: 40px; */
+/*   width: 500; */
+  color: #ffffff;
+/*   margin: 30px; */
+  
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+
+#blah1 {
+  display: block;
+  margin-left: 10px;
+}
+
+#blah1 p{
+  color: #ffffff;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 1.6;
+
+  width: 400px;
+}
+#blah1 h1 {
+/*   position: */
+  color: #ffffff;
+  font-family: 'Song Myung', serif;
+/*   font-family: "" */
+  font-size: 180px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+
+}
+
+.bgmVol {
+  margin-right: 10px;
+}
+.bgmVol:focus {
+  /* Stops the default outline showing up */
+  outline: none;
+}
+.bgmVol::-webkit-slider-runnable-track {
+  background: #ffffff;
+  height: 3px;
+  -webkit-appearance: none;
+  
+  /* Turns the cursor into the hand pointer icon when hovering over the slider  */
+  cursor: pointer;
+}
+.bgmVol::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+/*   background: #ffffff; */
+  cursor: pointer;
+  -webkit-appearance: none;
+  
+  /* negative top padding moves it up */
+  margin-top: -6px;
+
+  /* Border radius gives rounded corners, if they're big enough, you end up with circles */
+  border-radius: 8px;
+}
+
+.saveBtn {
+  margin: 0px 10px 20px;
+    
+  background-color: #1F1F1F;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.saveBtn:hover {
+  background-color: #ffffff;
+  color: #1F1F1F;
+}
+
+.eraseBtn {
+  margin: 0px 10px 0px;
+    
+  background-color: #1F1F1F;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.eraseBtn:hover {
+  background-color: #ffffff;
+  color: #1F1F1F;
+}
+
+
+/* .saveBtn */
+#btnContainer {
+  dislay: flex;
+  position: relative;
+  margin-left: 10px;
+  
+}
